@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+}
+header{
+    background-color: darkblue;
+    position: sticky;
+    top: 0;
+}
+nav{
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: floralwhite;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.logo span{
+    color: fuchsia;
+}
+.lien{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.lien a{
+    color: gold;
+    font-size: 15px;
+}
+.lien a:hover{
+    color: green;
+}
+body h1{
+    color: honeydew;
+    text-align: center;
+}
+body h2{
+    color: honeydew;
+    text-align: center;
+}
+form{
+    background-color: indigo;
+    width: 500px;
+    border-radius: 14px;
+    padding: 20px;
+}
+label{
+    display: block;
+    color: ivory;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+input,
+textarea{
+    width: 100%;
+    padding: 12px;
+border: 1px solid rgb(12, 12, 12); 
+border-radius: 4px;
+font-size: 16px;
+}
+button{
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(126, 111, 84);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    
+}
+button:hover{
+    transform: scale(1.2);
+}
